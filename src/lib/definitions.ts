@@ -12,3 +12,16 @@ export type ShoppingCartData = {
         quantity: number,
     },
 }
+
+export interface OrderInfoObj {
+    firstName: string;
+    lastName: string;
+    address: string;
+    city: string;
+    state: string;
+    zip: string;
+    phone: string;
+    cardNumber: string;
+    expiry: string;
+    cvc: string;
+  }
