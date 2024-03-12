@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <div className='pl-4 md:pl-20 lg:pl-20 py-[20px] text-[25px] font-extrabold'> KING'S STORE </div>
     <App />
   </React.StrictMode>
 );
