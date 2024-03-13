@@ -14,7 +14,7 @@ const ShoppingCart = () => {
                         src={item.image}
                         />
                     </div>
-                    <div className="flex flex-col items-start justify-between w-[230px] md:w-[400px] lg:w-[400px] h-[110px] pb-7 pt-2">
+                    <div className="flex flex-col items-start justify-between w-[230px] md:w-[400px] lg:w-[400px] h-[110px] pb-7 pt-2 pl-2 md:pl-0 lg:pl-0">
                         <span className="font-bold"> {item.aboutItem.name} </span>
                         <span className="text-[13px]"> {item.aboutItem.description} </span>
                         <span className="text-[13px]"> ID: <span> {item.aboutItem.id} </span> </span>

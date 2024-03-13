@@ -34,14 +34,15 @@ const schemaObj = {
   city: Yup.string()
     .required('Required'),
   zip: Yup.string()
-  .matches(/^[A-Z]{2}/, 'Invalid input')
+  .matches(/^\+\d+[0-9]$/, 'Invalid input')
     .required('Required'),
   phone: Yup.string()
-    .min(9, "Should have a minimum of 5 numbers")
-    .max(10, "Should have a maximum of 5 numbers")
+    .matches(/^\+\d+[0-9]$/, "Invalid phone number")
+    .min(10, "Should have a minimum of 10 numbers")
+    .max(13, "Should have a maximum of 13 numbers")
     .required("Required"),
   cardNumber: Yup.string()
-    // .min(14, "Invalid card number")
+    .min(14, "Invalid card number")
     .max(16, "Invalid card number")
     .required("Required"),
   expiry: Yup.string()
