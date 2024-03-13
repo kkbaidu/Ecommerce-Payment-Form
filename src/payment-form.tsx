@@ -76,7 +76,7 @@ function PaymentForm() {
   const navigate = useNavigate();
 
   return (
-    <main className='grid md:grid-cols-2 lg:grid-cols-2 md:grid-row-1 lg:grid-row-1 md:px-20 lg:px-20 md: lg:gap-6'>
+    <main className='grid md:grid-cols-2 lg:grid-cols-2 md:grid-row-1 lg:grid-row-1 md:px-20 lg:px-20 md:gap-6 lg:gap-6 mb-5'>
       {/* Shopping cart */}
       <div className='md:border lg:border md:border-gray-300 lg:border-gray-300 md:shadow-lg lg:shadow-lg md:rounded-[20px] lg:rounded-[20px] px-4'>
         <div className='flex items-center text-[20px] text-left font-bold w-full border-b border-gray-200 h-[50px]'>

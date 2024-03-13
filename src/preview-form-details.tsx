@@ -92,7 +92,7 @@ const PreviewFormDetails = () => {
                         <button className=" mt-4 bg-[#396aff] hover:bg-blue-600 text-black px-4 py-2 rounded-md" 
                         onClick={() => {
                             setIsModalOpen(false)
-                            setTimeout(() => navigate("/"), 2000)
+                            setTimeout(() => navigate("/"), 1000)
                         }}
                         >Done</button>
                     </div>
